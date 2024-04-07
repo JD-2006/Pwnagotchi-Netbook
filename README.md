@@ -1,11 +1,15 @@
 # Pwnagotchi-Netbook
 Pwnagotchi on your laptop or netbook!
 
+
+![screenshot](pwna-screen.png)
+
+
 I wanted an excuse to revive some old hardware so this is what I came up with.
 It is Pwnagotchi running on a Debian 11 VM. VMware Workstation Player is the format used.
 Now you can drag out your old school wardiving gear! Put that $100 patch antenna to work
 and eat all the wifi!
-My hardware is an old Acer netbook with dual cores.
+My hardware is an old Acer Windoze 8.1 netbook with dual cores.
 The extracted VM folder is approx 11GB.
 Suprisingly did not have too many package compiles or funny business to get everything working.
 I did 'apt-mark hold  libpcap8.0 libpcap8.0-dev' because I had to use a weird version to get hcxtools installed
