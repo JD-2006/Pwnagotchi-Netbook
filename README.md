@@ -16,7 +16,7 @@ I set the VM to use the hosted network adapter instead of NAT.
 
 After starting VM then plugin your wireless adapter.
 
-** I changed the driver in '/usr/bin/pwnlib' to use a TL-WN722N. Use search and replace to use your required driver as there
+** I changed the driver in '/usr/bin/pwnlib' to use a TL-WN722N. Use search and replace to find ath9k_htc and use your required driver as there
 are a few references. I didn't use modprobe 
 but might work for you. This VM works if your pwning wireless adapter is wlan0. **
 
