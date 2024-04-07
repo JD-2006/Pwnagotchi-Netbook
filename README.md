@@ -36,6 +36,9 @@ adapter but dunno.
 
 I have not thoroughly tested AI mode so dunno.
 
+https://drive.google.com/drive/folders/1wtYtoiIxTfJI77TdaoXaarOLjOBIc8RW?usp=sharing
+
+
 
 Credits:
 https://sourceforge.net/projects/linuxvmimages/files/VMware/D/
