@@ -14,7 +14,7 @@ The extracted VM folder is approx 11GB.
 Suprisingly did not have too many package compiles or funny business to get everything working.
 I did 'apt-mark hold  libpcap8.0 libpcap8.0-dev' because I had to use a weird version to get hcxtools installed
 I think.
-The login is debian and pass debian. The root pass is toor.
+The login is debian and pass debian. The root pass is toor. AI took less than 2 mins to startup.
 
 I set the VM to use the hosted network adapter instead of NAT.
 
@@ -34,7 +34,7 @@ Thoroughly check the config.toml to see what I changed from default and change a
 Had a weird issue with bettercap and had to edit '/etc/default/crda' to only use channels 1 - 11. Prob related just to my
 adapter but dunno.
 
-I have not thoroughly tested AI mode so dunno.
+
 
 https://drive.google.com/drive/folders/1wtYtoiIxTfJI77TdaoXaarOLjOBIc8RW?usp=sharing
 
