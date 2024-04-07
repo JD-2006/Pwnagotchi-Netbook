@@ -10,6 +10,7 @@ The extracted VM folder is approx 11GB.
 Suprisingly did not have too many package compiles or funny business to get everything working.
 I did 'apt-mark hold  libpcap8.0 libpcap8.0-dev' because I had to use a weird version to get hcxtools installed
 I think.
+The login is debian and pass debian. The root pass is toor.
 
 I set the VM to use the hosted network adapter instead of NAT.
 
