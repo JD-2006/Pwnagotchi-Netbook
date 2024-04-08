@@ -18,7 +18,14 @@ The login is debian and pass debian. The root pass is toor. AI took less than 2 
 
 I set the VM to use the hosted network adapter instead of NAT.
 
-After starting VM then plugin your wireless adapter.
+After starting VM and logging in, then plugin your wireless adapter.
+
+To adjust Pwnagotchi screen size edit '/usr/local/lib/python3.11/dist-packages/pwnagotchi/ui/hw/inky.py'
+self._layout['width']
+self._layout['height']
+Then adjust layout with the Tweak-view plugin.
+The screenshot shows my layout on a 1366x768 resolution screen. To get more real estate you could find a way to have browser full screen
+or hide parts of your browser. Remember to make things bigger, reduce the resolution values.
 
 ** I changed the driver in '/usr/bin/pwnlib' to use a TL-WN722N. Use search and replace to find ath9k_htc and use your required driver as there
 are a few references. I didn't use modprobe 
