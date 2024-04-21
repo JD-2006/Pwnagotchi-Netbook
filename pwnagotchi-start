@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Start bettercap.service
+sudo systemctl start bettercap.service
+
+# Wait for bettercap.service to start before starting the next service
+sleep 5
+
+# Start pwngrid-peer.service
+sudo systemctl start pwngrid-peer.service
+
+# Wait for pwngrid-peer.service to start before starting the next service
+sleep 5
+
+# Start pwnagotchi.service
+sudo systemctl start pwnagotchi.service
