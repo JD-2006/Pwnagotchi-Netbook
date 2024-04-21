@@ -41,6 +41,13 @@ Thoroughly check the config.toml to see what I changed from default and change a
 Had a weird issue with bettercap and had to edit '/etc/default/crda' to only use channels 1 - 11. Prob related just to my
 adapter but dunno.
 
+*** Update ***
+Added a program that is NOT installed in the VM called 'pwnagotchi-start' that you can use after you're up and running that will
+start the necessary services for pwnagotchi pwning if so desired. The idea for the use case is if you use other programs like 
+Wifite or AngryOxide regularly you don't want pwwnagotchi services starting automatically. Requires using beforehand:
+sudo systemctl disable pwnagotchi
+sudo systemctl disable bettercap
+sudo systemctl disable pwngrid-peer
 
 
 https://drive.google.com/drive/folders/1wtYtoiIxTfJI77TdaoXaarOLjOBIc8RW?usp=sharing
