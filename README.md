@@ -60,4 +60,7 @@ https://drive.google.com/drive/folders/1wtYtoiIxTfJI77TdaoXaarOLjOBIc8RW?usp=sha
 Credits:
 https://sourceforge.net/projects/linuxvmimages/files/VMware/D/
 
+These guys have 32bit versions as well.
+https://www.osboxes.org/debian/#debian-11-vmware
+
 https://github.com/jayofelony/pwnagotchi-bullseye
